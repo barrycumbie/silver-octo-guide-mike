@@ -19,16 +19,25 @@ navigate to PROPER DIRECTORY
 - check over package.json 
 - code your app.js 
 - test locally `node app.js` & http://localhost:3000
+- kill node process: `ctrl` + `c`
+
 
 ## push to remote
 git status
 git salute: add commit push (barry’ism)
 
+## ready for depoyment
+- https://gist.github.com/barrycumbie/13051074ae9113bf90585c3887462500?permalink_comment_id=4319618#gistcomment-4319618
+
+
 ## deploy with a PaaS
-render? 
-ENV.PORT = https://community.render.com/t/express-port-issue-on-web-service/4061
-use NPM vs YARN 
-https://render.com/docs/deploy-node-express-app
+- render? 
+  - [good walk through](https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/)
+  - [env port](https://community.render.com/t/express-port-issue-on-web-service/4061)
+  - use NPM vs YARN?
+    - > For Build Command enter yarn as the value which is equivalent to the yarn install command. Yarn is a package manager similar to npm but faster than npm. 
+  - https://render.com/docs/deploy-node-express-app
+
 
 
 
