@@ -3,6 +3,7 @@
 ## set up dev box
 - download & install node 
 - check it: `node -v`
+- turn it off and on...might need to kill terminal/vsCode and restart for `node -v` to register
 - (assumes bash/gitbash, vsCode) 
 
 ## set up REPO (initialize) 
