@@ -8,18 +8,22 @@
 
 ## set up REPO (initialize) 
 - recommended: set up remote first, via github
+- new repo
+- no template + take their suggested name add on lab or some i.d. info + 
+- public, add readme, gitignore = node, license = GNU GPL 3.0
 
 ## set up dev space
 - tools: vsCode, terminal
 - open workspace in vsCode
-navigate to PROPER DIRECTORY
-connect remote repo: git clone
-navigate to PROPER DIRECTORY
+  - navigate to PROPER DIRECTORY
+- connect remote repo: git clone
+  - navigate to PROPER DIRECTORY
 - install express or check `npm info express`
 - initialize node project: `npm init -y`
 - check over package.json 
 - code your app.js 
 - test locally `node app.js` & http://localhost:3000
+  - if prompted (on a PC) allow to pass through firewall or whatever
 - kill node process: `ctrl` + `c`
 
 
