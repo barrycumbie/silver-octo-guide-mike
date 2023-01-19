@@ -28,22 +28,28 @@
 
 
 ## push to remote
-git status
-git salute: add commit push (barry’ism)
+- git status
+- git salute: add commit push (barry’ism)
+- go check it on GitHub
 
-## ready for depoyment
-- https://gist.github.com/barrycumbie/13051074ae9113bf90585c3887462500?permalink_comment_id=4319618#gistcomment-4319618
+## ready for depoyment on a PaaS? 
+
+- first, refactor to grab PORT env: https://github.com/barrycumbie/silver-octo-guide-mike/blob/a15523ceeb1391679cfcf17813b9a69d1be5103d/app.js#L3
+- 
 
 
-## deploy with a PaaS
-- render? 
+- render? render! 
+  - new web service
+  - connect to GH repo
+  - name, keep all defaults, start = `node app.js`, FREE
+
   - [good walk through](https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/)
   - [env port](https://community.render.com/t/express-port-issue-on-web-service/4061)
   - use NPM vs YARN?
     - > For Build Command enter yarn as the value which is equivalent to the yarn install command. Yarn is a package manager similar to npm but faster than npm. 
   - https://render.com/docs/deploy-node-express-app
 
-
+- here's how on the old Heroku: https://gist.github.com/barrycumbie/13051074ae9113bf90585c3887462500?permalink_comment_id=4319618#gistcomment-4319618 
 
 
 notes
